@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, -apple-system, "PingFang SC", "Source Han Sans SC",
+    "Noto Sans CJK SC", "Microsoft Yahei", "Lantinghei SC", "Hiragino Sans GB",
+    "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans-serif;
+  border: none;
+  outline: none;
+}
+.header {
+  /*  margin-top: 5px;*/
+  box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0px 0px 10px 10px;
+  background-color: white;
+  height: 160px;
+  width: 100%;
+  /*  position: fixed;*/
+  top: 50px;
+  right: 70%;
+  font-size: 75px;
+  color: red;
+  font: bold;
+}
+.center {
+  /*  background-color: blueviolet;*/
+  height: 400px;
+  width: 100%;
+}
+.bottom {
+  background-color: none;
+  height: 308px;
+  width: 100%;
+}
+.header_title {
+  /*  margin: auto auto auto 300px;*/
+  /*	font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';*/
+  position: fixed;
+  top: 50px;
+  right: 70%;
+  font-size: 75px;
+  color: red;
+  font: bold;
+}
+.wrapper {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #c0381f;
+  box-shadow: #000000 0px 0px 10px;
+  border-radius: 50%;
+}
+.panel {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: #b7b7b7;
+  border-radius: 100px;
+}
+.pointer {
+  position: absolute;
+  left: 79px;
+  top: 79px;
+  z-index: 10;
+  height: 30px;
+  width: 30px;
+  padding: 6px;
+  color: #fff899;
+  line-height: 15px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #dc5b5b;
+  border-radius: 50%;
+  border: 1px solid #c0381f;
+  -webkit-transition: -webkit-transform 3s cubic-bezier(0.2, 0.93, 0.43, 1);
+  -moz-transition: -moz-transform 3s cubic-bezier(0.2, 0.93, 0.43, 1);
+  transition: transform 3s cubic-bezier(0.2, 0.93, 0.43, 1);
+}
+.pointer2 {
+  position: absolute;
+  left: 79px;
+  top: 79px;
+  z-index: 10;
+  height: 30px;
+  width: 30px;
+  padding: 6px;
+  color: #fff899;
+  line-height: 15px;
+  font-size: 12px;
+  text-align: center;
+  background-color: #dc5b5b;
+  border-radius: 50%;
+  border: 1px solid #c0381f;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  transform: rotate(0);
+  -webkit-transition: -webkit-transform 3s cubic-bezier(0.2, 0.93, 0.43, 1);
+  -moz-transition: -moz-transform 3s cubic-bezier(0.2, 0.93, 0.43, 1);
+  transition: transform 3s cubic-bezier(0.2, 0.93, 0.43, 1);
+}
+.pointer::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: -25px;
+  border-width: 12px 6px;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: #c0381f;
+  /*   -webkit-transition: -webkit-transform 3s cubic-bezier(0.2, 0.93, 0.43, 1);
+  -moz-transition: -moz-transform 3s cubic-bezier(0.2, 0.93, 0.43, 1);
+  transition: transform 3s cubic-bezier(0.2, 0.93, 0.43, 1); */
+}
+.area {
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  border-radius: 100px 0px 0px 0px;
+  /*    margin: 10px;*/
+}
+.area2 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 0px 0px 0px 100px;
+}
+.area3 {
+  position: absolute;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 0px 100px 0px 0px;
+}
+.area4 {
+  position: absolute;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  border-radius: 0px 0px 100px 0px;
+}
+.refresh {
+  height: 100px;
+width: 300px;
+/*  weight: 900px;*/
+  position: relative;
+  left: 30%;
+  top: 10%;
+  background-color: orange;
+  border-style: solid;
+  border-radius: 10px;
+	border-color: orange;
+	box-shadow: 5px 0px 10px rgba(0,0,0,0.5);
+	font-size: 50px;
+	font-family:'Ubuntu Mono', 'Ubuntu Condensed', Ubuntu, 'Ubuntu Thin', 'Ubuntu Light';
+}
