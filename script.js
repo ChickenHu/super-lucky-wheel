@@ -25,6 +25,5 @@ function draw() {
   text.src =
     "https://cdn.glitch.global/e9413733-3dc8-4177-9519-e49e85823303/%E5%B9%BB%E7%81%AF%E7%89%871.png?v=1642216639483";
   ctx.drawImage(cover,0,0);
-    x.drawImage(text,0,0);
+  ctx.drawImage(text,0,0);
 }
-dwaowr);
